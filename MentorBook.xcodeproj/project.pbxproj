@@ -14,6 +14,10 @@
 		E9BC7EF2202FB93D00DDDC5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BC7EF0202FB93D00DDDC5B /* LaunchScreen.storyboard */; };
 		E9BC7EFD202FB93D00DDDC5B /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC7EFC202FB93D00DDDC5B /* MentorBookTests.swift */; };
 		E9BC7F08202FB93D00DDDC5B /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC7F07202FB93D00DDDC5B /* MentorBookUITests.swift */; };
+		E9BC7F19202FB9D600DDDC5B /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9BC7F16202FB9D600DDDC5B /* ryo.jpg */; };
+		E9BC7F1A202FB9D600DDDC5B /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9BC7F17202FB9D600DDDC5B /* nagata.jpg */; };
+		E9BC7F1B202FB9D600DDDC5B /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E9BC7F18202FB9D600DDDC5B /* taithi.JPG */; };
+		E9BC7F1D202FBC4700DDDC5B /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC7F1C202FBC4700DDDC5B /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		E9BC7F03202FB93D00DDDC5B /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BC7F07202FB93D00DDDC5B /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		E9BC7F09202FB93D00DDDC5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9BC7F16202FB9D600DDDC5B /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		E9BC7F17202FB9D600DDDC5B /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		E9BC7F18202FB9D600DDDC5B /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		E9BC7F1C202FBC4700DDDC5B /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,14 @@
 		E9BC7EE6202FB93D00DDDC5B /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				E9BC7F15202FB9D600DDDC5B /* images */,
 				E9BC7EE7202FB93D00DDDC5B /* AppDelegate.swift */,
 				E9BC7EE9202FB93D00DDDC5B /* ViewController.swift */,
 				E9BC7EEB202FB93D00DDDC5B /* Main.storyboard */,
 				E9BC7EEE202FB93D00DDDC5B /* Assets.xcassets */,
 				E9BC7EF0202FB93D00DDDC5B /* LaunchScreen.storyboard */,
 				E9BC7EF3202FB93D00DDDC5B /* Info.plist */,
+				E9BC7F1C202FBC4700DDDC5B /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -123,6 +133,16 @@
 				E9BC7F09202FB93D00DDDC5B /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		E9BC7F15202FB9D600DDDC5B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E9BC7F16202FB9D600DDDC5B /* ryo.jpg */,
+				E9BC7F17202FB9D600DDDC5B /* nagata.jpg */,
+				E9BC7F18202FB9D600DDDC5B /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BC7F19202FB9D600DDDC5B /* ryo.jpg in Resources */,
+				E9BC7F1A202FB9D600DDDC5B /* nagata.jpg in Resources */,
+				E9BC7F1B202FB9D600DDDC5B /* taithi.JPG in Resources */,
 				E9BC7EF2202FB93D00DDDC5B /* LaunchScreen.storyboard in Resources */,
 				E9BC7EEF202FB93D00DDDC5B /* Assets.xcassets in Resources */,
 				E9BC7EED202FB93D00DDDC5B /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BC7F1D202FBC4700DDDC5B /* Mentor.swift in Sources */,
 				E9BC7EEA202FB93D00DDDC5B /* ViewController.swift in Sources */,
 				E9BC7EE8202FB93D00DDDC5B /* AppDelegate.swift in Sources */,
 			);
